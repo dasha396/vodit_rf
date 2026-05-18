@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Водить.РФ - Речной транспорт</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <img src="../assets/images/logo.png" alt="Водить.РФ" width="30" height="30" class="d-inline-block align-text-top">
+            Водить.РФ
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto" id="navMenu">
+                <li class="nav-item"><a class="nav-link" href="index.html">Главная</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<main class="py-4">
+    <div class="container">
+        <!-- СЛАЙДЕР -->
+        <div id="mainSlider" class="carousel slide mb-5" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="3"></button>
+            </div>
+            <div class="carousel-inner rounded-4">
+                <div class="carousel-item active">
+                    <img src="../assets/images/slide1.jpg" class="d-block w-100" alt="Катер" style="height: 400px; object-fit: cover;">
+                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+                        <h5>Катера</h5>
+                        <p>Скоростные и комфортабельные</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../assets/images/slide2.jpg" class="d-block w-100" alt="Круизный лайнер" style="height: 400px; object-fit: cover;">
+                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+                        <h5>Круизные лайнеры</h5>
+                        <p>Путешествуйте с комфортом</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../assets/images/slide3.jpg" class="d-block w-100" alt="Яхта" style="height: 400px; object-fit: cover;">
+                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+                        <h5>Яхты</h5>
+                        <p>Роскошь и свобода</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../assets/images/slide4.jpg" class="d-block w-100" alt="Речной транспорт" style="height: 400px; object-fit: cover;">
+                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+                        <h5>Водить.РФ</h5>
+                        <p>Весь речной транспорт в одном месте</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#mainSlider" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#mainSlider" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+
+        <div class="row justify-content-center text-center mb-5" id="heroBlock">
+            <div class="col-md-8">
+                <h1 class="display-4">Водить.РФ</h1>
+                <p class="lead">Речной транспорт: катера, круизные лайнеры, яхты</p>
+                <p>Аренда и заказ водного транспорта по всей России</p>
+                <div id="authButtons"></div>
+            </div>
+        </div>
+
+        <div class="row text-center g-4 mb-5">
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h3 class="card-title"> Катер</h3>
+                        <p class="card-text">Скоростные катера для прогулок и поездок</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h3 class="card-title"> Круизный лайнер</h3>
+                        <p class="card-text">Комфортабельные круизы по рекам</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h3 class="card-title"> Яхта</h3>
+                        <p class="card-text">Премиальные яхты для особых случаев</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<!-- ПОДВАЛ -->
+<footer class="bg-dark text-white mt-auto py-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h5></h5> Адрес</h5>
+                <p class="small">г. Москва, ул. Большая Ордынка, д. 15</p>
+            </div>
+            <div class="col-md-4">
+                <h5> Контакты</h5>
+                <p class="small">+7 (495) 123-45-67</p>
+            </div>
+            <div class="col-md-4">
+                <h5> Оплата</h5>
+                <p class="small">Предоплата по QR-коду | Карта МИР | Постоплата в офисе</p>
+            </div>
+        </div>
+        <div class="text-center mt-3">
+            <p class="small mb-0">© 2026 Водить.РФ | Речной транспорт</p>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>
